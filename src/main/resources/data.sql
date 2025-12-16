@@ -1,0 +1,2 @@
+INSERT INTO account(number, balance) VALUES ('A-100', 10000.00) ON CONFLICT DO NOTHING;
+INSERT INTO account(number, balance) VALUES ('A-200', 5000.00) ON CONFLICT DO NOTHING;
